@@ -1,0 +1,127 @@
+body {
+    background: #000000 !important;
+}
+
+.mydiv {
+    background-color: #1cfc03;
+    border: 4px solid #1cfc03;
+    border-radius: 30px;
+    padding: 30px 20px 30px 20px;
+    margin: 30px 20px 30px 20px;
+}
+
+.one {
+    color: #000000;
+    font-family: "Orbitron", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.two {
+    color: #000000;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+}
+
+.three {
+    color: #1cfc03;
+    font-family: "Orbitron", sans-serif;
+    font-size: 40px;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.board button {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 128, 128);
+    margin: 1px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+#mouse-circle {
+    z-index: 100;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: -25px 0 0 -25px;
+    border: 1px solid #1cfc03;
+    border-radius: 50%;
+    pointer-events: none;
+    background: greenyellow;
+    opacity: .8;
+}
+
+@media (max-width: 775px) {
+    .board button {
+        width: 75px;
+        height: 75px;
+        background-color: rgb(128, 128, 128);
+        margin: 1px;
+        border: 4px solid black;
+        border-radius: 50%;
+    }
+
+    #mouse-circle {
+        z-index: 100;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin: -20px 0 0 -20px;
+        border: 1px solid #1cfc03;
+        border-radius: 50%;
+        pointer-events: none;
+        background: greenyellow;
+        opacity: .8;
+    }
+}
+
+@media (max-width: 596px) {
+    .board button {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(128, 128, 128);
+        margin: 1px;
+        border: 4px solid black;
+        border-radius: 50%;
+    }
+
+    #mouse-circle {
+        z-index: 100;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin: -5px 0 0 -7px;
+        border: 1px solid #1cfc03;
+        border-radius: 50%;
+        pointer-events: none;
+        background: greenyellow;
+        opacity: .8;
+    }
+}
+
+@media (max-width: 400px) {
+    .board button {
+        width: 25px;
+        height: 25px;
+        background-color: rgb(128, 128, 128);
+        margin: 1px;
+        border: 4px solid black;
+        border-radius: 50%;
+    }
+
+    #mouse-circle {
+        z-index: 100;
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        margin: -5px 0 0 -7px;
+        border: 1px solid #1cfc03;
+        border-radius: 50%;
+        pointer-events: none;
+        background: greenyellow;
+        opacity: .8;
+    }
+}
